@@ -1,18 +1,23 @@
-## Getting Started
+# Simulação Bancária
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um programa simples em Java para simular operações bancárias básicas. Ele permite ao usuário realizar depósitos, saques e consultar o saldo em uma conta bancária virtual. O programa utiliza um menu interativo e permite a realização dessas operações até que o usuário decida encerrar o programa.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- **Depositar**: Permite ao usuário adicionar dinheiro à conta bancária.
+- **Sacar**: Permite ao usuário retirar dinheiro da conta, verificando se há saldo suficiente.
+- **Consultar Saldo**: Mostra o saldo atual da conta bancária.
+- **Encerrar**: Finaliza o programa.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias Utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Java**: Linguagem de programação utilizada para desenvolver o sistema.
+- **Scanner**: Utilizado para capturar a entrada do usuário no console.
+- **Controle de fluxo**: Implementado com estruturas de controle `switch` e `while` para gerenciar as operações.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como Executar
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Clone o repositório** ou copie o código para o seu ambiente local.
+   
+   ```bash
+   git clone https://github.com/seu-usuario/simulacao-bancaria.git
